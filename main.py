@@ -17,7 +17,7 @@ with col2:
     st.title("Answer")
     output_text_area = st.subheader("")
 
-genai.configure(api_key="AIzaSyDhTGPMmKhnEIWW-sUsmi9ZzoK_8a8iRDM")
+genai.configure(api_key="your api key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 
